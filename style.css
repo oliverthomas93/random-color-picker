@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.click-me {
+    height: 45px;
+    width: 140px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+.click-me:focus {
+    outline: none;
+}
+.click-me:hover {
+    box-shadow: 6px 9px 3px grey;
+}
